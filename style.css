@@ -46,6 +46,9 @@ ul {
 .block_z {
 	background: purple;
 }
+.block_s {
+	background: green;
+}
 .block_l1 {
 	background: orange;
 }
@@ -77,8 +80,8 @@ ul {
 
 .gameover > button{
     padding : 0.5rem 1rem;
-    color : #fff;
-    background: green;
+    color : black;
+    background: peachpuff;
     border: none;
     cursor: pointer;
 }
