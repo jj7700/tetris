@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+		<div class="score_container">Game Score <span class="score">0</span></div>
+		<div class="stage">
+			<ul></ul>
+		</div>
+		<div class="gameover">
+		    <span>Game Over!</span>
+			<button>Restart</button>
+		</div>
+		<div class="gamebutton">
+			<div class="btn1">
+				<button class="btn_change">CHAGE</button>
+			</div>
+			<div class="btn2">
+				<button class="btn_left">LEFT</button>
+				<button class="btn_down">DOWN</button>
+				<button class="btn_right">RIGHT</button>
+			</div>
+		</div>
+    </div>
+    <script src="blocks.js"></script>
+    <script src="tetris.js"></script>
+  </body>
+</html>
