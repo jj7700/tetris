@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-  
+
 body {
 	height: 100%;
 	background : black;
@@ -26,40 +26,52 @@ ul {
 
 .stage > ul > li > ul {
 	display: flex;
+	border-spacing: 0;
 }
 
 .stage > ul > li > ul > li {
 	width: 25px;
 	height: 25px;
-	outline: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.stage > ul > li > ul > li:last-child {
+	border-right: none;
+}
+
+.stage > ul > li:last-child > ul > li {
+	border-bottom: none;
 }
 
 .block_rect {
-	background: cyan;
+	background: #8ef0ff;
 }
 .block_rod {
-	background: yellow;
+	background: #fff28a;
 }
 .block_t {
-	background: red;
+	background: #ff7a7a;
 }
 .block_z {
-	background: purple;
+	background: #d28aff;
 }
 .block_s {
-	background: green;
+	background: #7aff7a;
 }
 .block_l1 {
-	background: orange;
+	background: #ffb870;
 }
 .block_l2 {
-	background: blue;
+	background: #7aafff;
 }
 
 .score_container{
 	text-align: center;
 	font-size: 30px;
-	margin-top: 0.5rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	color: white;
 }
 
@@ -75,7 +87,7 @@ ul {
     left : 0;
     top : 0;
     color : #fff;
-    font-size: 34px;
+    font-size: 30px;
 }
 
 .gameover > button{

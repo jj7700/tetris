@@ -196,3 +196,4 @@ document.querySelector(".gameover > button").addEventListener("click",()=>{
     document.querySelector(".gameover").style.display = "none";
     init()
 })
+
